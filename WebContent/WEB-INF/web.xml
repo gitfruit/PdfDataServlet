@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+<servlet>
+<servlet-name>a</servlet-name>
+<servlet-class>com.app.PdfServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>a</servlet-name>
+<url-pattern>/show</url-pattern>
+</servlet-mapping>
+</web-app>
